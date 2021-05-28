@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first site</title>
+    <style>
+        p {
+     color: black;
+
+
+     }
+     body {
+     background-color: brown;
+     }
+     h1 {
+     text-align: center;
+     color: red
+     }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">Nusupaev Mirlan</h1>
+    <p>Mесто проживание: г. Бишкек  мкр. Джал-23 дом 33 кв3</p>
+    <p>Дата рождения 15.01.1989</p>
+    <p>эл.почта:Mirlan_33-3@mail.ru</p>
+    <p>Личные качество:Внимательность, ответственность, пунктуальность, </p>
+    <a href="https://www.megacom.kg/">
+        <img id="img" src="h-30.jpg" alt="ZOOM">
+    </a>
+
+
+    <script>
+        let a = document.getElementById('main-title')
+        a.innerText = 'Nusupaev Mirlan'
+
+         const body = document.getElementById('img');
+        let deg = 720;
+        setInterval(() => {
+            deg = 1060;
+            body.style.transition = "all 30s"
+            body.style.transform = `rotateY(${deg}deg)`
+        }, 100)
+
+
+    </script>
+</body>
+</html>
