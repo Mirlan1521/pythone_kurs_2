@@ -25,35 +25,26 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="874724eb-66fb-452e-be3b-e6e83e855b1a">
-        <schema name="main" object-types="table, view" />
+      <connection connection-id="9ee43239-b719-4e12-bb40-69161bb20689">
+        <schema name="main" object-types="table, view, constraint, index, column, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="874724eb-66fb-452e-be3b-e6e83e855b1a">
-      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[create table students (name text, surname text, age integer, course_name text, direction text, level integer);
-
-
-insert into students values ('Kadyr', 'Umarov', 32, 'gik', 'fdfdf', 1);
-insert into students values ('Mirlan', 'Nusupaev', 25, 'gik', 'fdfdf', 1);
-
-delete from students where name = 'Mirlan';
-
-
-create table students_2 (name text, surname text, age integer, course_name text, direction text, level integer);
-drop table students_2]]></console>
+    <connection id="9ee43239-b719-4e12-bb40-69161bb20689">
+      <console name="Connection" type="STANDARD" schema="main" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="9ee43239-b719-4e12-bb40-69161bb20689" object-ref="schemas/main/tables/products" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="874724eb-66fb-452e-be3b-e6e83e855b1a" />
+    <connection id="9ee43239-b719-4e12-bb40-69161bb20689" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="874724eb-66fb-452e-be3b-e6e83e855b1a" dataset="main.students_2" active-filter-id="EMPTY_FILTER" />
-    <filter-actions connection-id="874724eb-66fb-452e-be3b-e6e83e855b1a" dataset="main.students" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="9ee43239-b719-4e12-bb40-69161bb20689" dataset="main.products" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers>
@@ -85,7 +76,7 @@ drop table students_2]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="874724eb-66fb-452e-be3b-e6e83e855b1a" active="true">
+      <connection id="9ee43239-b719-4e12-bb40-69161bb20689" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -100,8 +91,7 @@ drop table students_2]]></console>
           <port value="1234" />
           <database value="database" />
           <files>
-            <file path="sqlite.db" schema="main" />
-            <file path="$PROJECT_DIR$/Uroki/Lesson_7/Lesson7.db" schema="" />
+            <file path="$PROJECT_DIR$/Home_Works_month_2/Home_Work_6/HW.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
