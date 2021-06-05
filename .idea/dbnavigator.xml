@@ -25,26 +25,28 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="9ee43239-b719-4e12-bb40-69161bb20689">
+      <connection connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c">
         <schema name="main" object-types="table, view, constraint, index, column, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="9ee43239-b719-4e12-bb40-69161bb20689">
+    <connection id="96536f02-311a-44eb-8f1e-5606f3d6458c">
       <console name="Connection" type="STANDARD" schema="main" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="9ee43239-b719-4e12-bb40-69161bb20689" object-ref="schemas/main/tables/products" />
+      <object connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c" object-ref="schemas/main/tables/post" />
+      <object connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c" object-ref="schemas/main/tables/author" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="9ee43239-b719-4e12-bb40-69161bb20689" />
+    <connection id="96536f02-311a-44eb-8f1e-5606f3d6458c" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="9ee43239-b719-4e12-bb40-69161bb20689" dataset="main.products" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c" dataset="main.post" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c" dataset="main.author" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers>
@@ -76,7 +78,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="9ee43239-b719-4e12-bb40-69161bb20689" active="true">
+      <connection id="96536f02-311a-44eb-8f1e-5606f3d6458c" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -91,7 +93,7 @@
           <port value="1234" />
           <database value="database" />
           <files>
-            <file path="$PROJECT_DIR$/Home_Works_month_2/Home_Work_6/HW.sqlite3" schema="main" />
+            <file path="$PROJECT_DIR$/Home_Works_month_2/Home_Work_7/HW7.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
