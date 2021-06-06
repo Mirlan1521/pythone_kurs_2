@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="96536f02-311a-44eb-8f1e-5606f3d6458c">
-        <schema name="main" object-types="table, view, constraint, index, column, dataset trigger" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="889c7fe7-2f4c-485c-b454-e1cb24039cb6">
         <schema name="main" object-types="table, view, constraint, index, column, dataset trigger" />
@@ -42,11 +42,7 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="889c7fe7-2f4c-485c-b454-e1cb24039cb6" object-ref="schemas/main/tables/apprentice" />
-      <object connection-id="889c7fe7-2f4c-485c-b454-e1cb24039cb6" object-ref="schemas/main/tables/teacher" />
-      <object connection-id="889c7fe7-2f4c-485c-b454-e1cb24039cb6" object-ref="schemas/main/tables/timetable" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="96536f02-311a-44eb-8f1e-5606f3d6458c" />
